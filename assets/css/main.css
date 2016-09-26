@@ -577,7 +577,23 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  background: green; }
+  background-image: url(../images/about.jpeg);
+  background-position: center bottom;
+  background-size: cover; }
+  section.about h2 {
+    color: coral;
+    font-size: 55px;
+    font-weight: 400;
+    margin-left: -150px;
+    line-height: 1; }
+  section.about .home-lead {
+    padding-bottom: 300px; }
+
+@media (max-width: 640px) {
+  section.about h2, section.about .home-lead {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px; } }
 
 .home-wrap {
   display: -webkit-box;
@@ -616,17 +632,17 @@ section.about {
 
 .col-1 {
   max-width: 300px;
-  margin: 0 10px;
-  background: coral; }
+  margin: 0 10px; }
 
 .col-2 {
   max-width: 620px;
-  margin: 0 10px;
-  background: honeydew; }
+  margin: 0 10px; }
 
 .col-3 {
-  width: 50%;
-  background: lavender; }
+  width: 50%; }
+
+.push-right {
+  margin-left: 330px; }
 
 @media (max-width: 640px) {
   .home-sections .flex {
@@ -634,4 +650,11 @@ section.about {
   .col-1 {
     max-width: 100%; }
   .col-3 {
-    width: auto; } }
+    width: auto; }
+  .push-right {
+    margin-left: 10px; } }
+
+.home-lead {
+  font-size: 36px;
+  color: coral;
+  line-height: 1; }
