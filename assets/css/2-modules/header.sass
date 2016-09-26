@@ -15,6 +15,7 @@
 
   .logo
     +hide-text
+    max-width: 135px
     background:
       image: url(../images/logo.svg)
       repeat: no-repeat
@@ -42,15 +43,48 @@
     text-align: right
     padding-right: 20px
 
+  .mobile-nav-toggle
+    display: none
+    width: 30px
+    height: 35px
+    margin-right: 20px
+    align-items: center
+
+    span, span:before, span::after
+      content: ""
+      display: block
+      height: 3px
+      width: 100%
+      background: #999
+      position: relative
+
+    span:before
+      top: 8px
+
+    span:after
+      bottom: 11px
+
+
+
 @media (max-width: 775px)
   .home-wrap header
     width: auto
     padding: 20px 0px
 
     .header-position
+      width: auto
       position: relative
       top: auto
-      left: auto
+      bottom: auto
       left: auto
       flex-direction: row
       align-items: center
+
+    .site-nav, .social
+      display: none
+
+    .logo
+      height: 45px
+
+    .mobile-nav-toggle
+      display: flex
