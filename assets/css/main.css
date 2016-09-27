@@ -577,7 +577,7 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  background-image: url(../images/about.jpeg);
+  background-image: url(../images/about.jpg);
   background-position: center bottom;
   background-size: cover; }
   section.about h2 {
