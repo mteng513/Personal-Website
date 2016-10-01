@@ -366,7 +366,7 @@ textarea {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #777;
   font-weight: bold; }
 
 .gigantic {
@@ -412,12 +412,12 @@ hr {
   height: 0; }
 
 a {
-  color: #000;
+  color: #777;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #333333; }
+  color: #111111; }
 
 ::-moz-selection {
   background: #FFF498; }
@@ -577,13 +577,14 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  background-image: url(../images/about.jpg);
+  background-image: url(../images/cornell.jpg);
   background-position: center bottom;
   background-size: cover; }
   section.about h2 {
+    color: coral;
     font-size: 55px;
     font-weight: 400;
-    margin-left: -150px;
+    margin-left: -250px;
     line-height: 1; }
   section.about .home-lead {
     padding-bottom: 300px; }
