@@ -1,0 +1,28 @@
+mixin thumbs
+  a(href="" style = "background-image: url(../assets/images/cornell.jpg)").thumbnail
+    .thumbnail-meta
+      .name Project Name
+      .description Project Description
+
+section.portfolio
+  .flex.flex--center
+    .col-3
+      .thumbnail-wrap
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+        +thumbs
+
+    .col-3.flex.flex--center
+      .col-1
+        .description-wrap
+          p.home-lead Hello everyone this is some filler text to see placement of my columns!
+          a(href="https://www.facebook.com/mteng96").home-cta Project Posts!

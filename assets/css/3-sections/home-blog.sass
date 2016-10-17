@@ -1,12 +1,11 @@
 section.blog
   background:
-    image: url(../images/stockbackground.jpg)
+    image: url(../images/stockpattern.png)
     position: center
-    size: cover
-  color: red
+    // size: cover
 
   .home-cta
-    color: red
+    color: brown
 
   .image-strip
     position: absolute
@@ -15,10 +14,14 @@ section.blog
     width: 100%
     height: calc(100% + 100px)
     background:
-      image: url(../images/ccc.png)
+      image: url(../images/cornell.jpg)
       position: center 0px
       repeat: repeat-y
       size: 75%
+
+  @media (max-width: 640px)
+    .image-strip
+      display: none
 
   .col-1
     position: relative
