@@ -1,7 +1,8 @@
 section.portfolio
-  background:
-    image: url(../images/stockpattern2.png)
+  background: linear-gradient(37deg, #21114F, #3E1166, #111266)
+    // image: url(../images/stockpattern2.png)
     position: center
+
   color: white
 
   .col-1
@@ -10,7 +11,8 @@ section.portfolio
   .home-cta
     color: white
     background: #3d96c0
-
+  .home-lead
+    color: white
   .thumbnail-wrap
     margin: -50px 0
     +clearfix
@@ -20,7 +22,7 @@ section.portfolio
     background:
       size: cover
       position: center
-    width: 25%
+    width: 33.3333%
     float: right
     position: relative
     overflow: hidden
@@ -57,7 +59,8 @@ section.portfolio
   @media (max-width: 640px)
     .description-wrap
       margin-top: 100px
+      width: 100%
 
   @media (max-width: 1024px) and (min-width: 640px)
     .thumbnail
-      width: 33.3%
+      width: 50%
