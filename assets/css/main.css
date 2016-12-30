@@ -610,8 +610,10 @@ section.about {
     max-width: 300px; } }
 
 section.blog {
-  background-image: url(../images/stockpattern2.png);
-  background-position: center; }
+  background: -webkit-linear-gradient(53deg, #21114F, #3E1166, #111266);
+  background: linear-gradient(37deg, #21114F, #3E1166, #111266);
+    background-image: url(../images/stockpattern2.png);
+    background-position: center; }
   section.blog .home-cta {
     color: #3d96c0; }
   section.blog .image-strip {
